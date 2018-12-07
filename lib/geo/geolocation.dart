@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:office_app/geo/personslocation.dart';
 
 class Geolocation extends StatelessWidget {
   @override
@@ -9,9 +10,12 @@ class Geolocation extends StatelessWidget {
       ),
       body: Center(
         child: RaisedButton(
-          child: Text('Main screen'),
+          child: Text('Who is in the office?'),
           onPressed: () {
-            Navigator.pop(context);
+            Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => PersonsLocation())
+            );
           },
         ),
       ),

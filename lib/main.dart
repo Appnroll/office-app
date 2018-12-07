@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:office_app/booking/booking.dart';
 import 'package:office_app/geo/geolocation.dart';
-import 'package:office_app/kudos/kudos.dart';
+import 'package:office_app/kudos/kudosDashboard.dart';
 
 void main() => runApp(MyApp());
 
